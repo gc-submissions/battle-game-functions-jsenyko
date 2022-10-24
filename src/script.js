@@ -2,6 +2,9 @@
 
 // TODO - write your code here.
 
+
+//I could not get the last part. So theres 5 remaining failures
+
 let randomDamage = () => { return Math.floor(Math.random() * 10) +1 }
 
 let chooseOption = (opt1, opt2) => {let randNum = Math.floor(Math.random() *2) == 0 ? opt1 : opt2; return randNum;}
@@ -27,6 +30,8 @@ let isDead = (health) => {
     else(health >= 0)
         return false;
 }
+
+//I could not get the last part. So theres 5 remaining failures
 
 function Fight(player1, player2, player1Health, player2Health) {
   
